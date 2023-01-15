@@ -17,6 +17,6 @@
 1. hello/main.goのimport文に "greeting.com/greeting" を追加。
 1. `go mod edit -replace greeting.com/greeting=../greeting`
 1. `go mod tidy`
-1. `go run main.go`
+1. `go run main.go` これでモジュール内の関数Helloが実行されたら成功
 
 参考：[GolangでModule(モジュール)について説明して、どう使えるか紹介します。](https://dev-yakuza.posstree.com/golang/module/)
